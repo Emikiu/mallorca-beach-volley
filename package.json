@@ -1,7 +1,7 @@
 {
-  "name": "emiliano-marinero-html-web",
+  "name": "mallorca-beach-volley",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio web para el curso de Coderhouse.",
   "main": "index.html",
   "scripts": {
     "start": "serve",
