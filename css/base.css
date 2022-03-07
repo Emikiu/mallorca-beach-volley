@@ -21,6 +21,7 @@ header {
 
 main {
   grid-column: 1 / span 3;
+  grid-row: 3 / span 5;
   min-height: 80vh;
   background-color: lightcyan;
 }
@@ -74,9 +75,7 @@ footer div a {
 #header3 {
   text-align: center;
 }
-main {
-  grid-column: 1 / span 5;
-}
+
 .img {
   display: block;
   border-radius: 10px;
@@ -103,20 +102,22 @@ main {
 @media only screen and (max-width: 400px) {
   aside {
     grid-column: 1 / span 5;
-    grid-row: 2 / span 3;
+    grid-row: 2;
   }
+  /*
   #header1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
+
   .espacio {
     display: grid;
     grid-template-rows: 1fr 1fr;
+  }*/
+  main {
+    grid-column: 1 / span 5;
   }
-}
-
-@media only screen and (max-width: 1400px) {
 }
 
 h2 {
