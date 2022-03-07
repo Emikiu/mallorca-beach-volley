@@ -10,3 +10,7 @@ ul li p {
   text-align: center;
   font-weight: bold;
 }
+
+.rombo:hover {
+  transform: rotate(45deg);
+}

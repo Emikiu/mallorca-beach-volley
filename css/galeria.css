@@ -28,3 +28,14 @@
   text-align: center;
   margin: auto;
 }
+
+.rombo:hover {
+  transform: rotate(45deg);
+}
+
+.transformar:hover {
+  transition: 4s transform, 4s border-radius, 4s background;
+
+  transform: rotate(15deg) translate(50px, 30px) scale(0.9);
+  border-radius: 50% 0 50% 0;
+}

@@ -137,3 +137,16 @@ p {
 .espacio {
   justify-contet: space-between;
 }
+
+.rombo:hover {
+  transform: rotate(45deg);
+}
+
+.desplazar {
+  /*Desplaza el elemento 10px hacia la derecha y 5% hacia abajo desde su posicion de origen */
+  transform: translate(10px, 0px);
+}
+.desplazar:hover {
+  /*Al pasar por encima del elemento lo mueve 10px hacia arriba DESDE SU POSICION ORIGINAL    */
+  transform: translateX(30px);
+}
